@@ -1,5 +1,6 @@
 { pkgs }: pkgs.runCommand "foo" { } ''
-  sleep 120
+  sleep 60
   echo haha > $out
   echo baba >> $out
+  echo huhu >> $out
 ''
