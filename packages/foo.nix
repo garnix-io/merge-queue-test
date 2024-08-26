@@ -1,3 +1,4 @@
 { pkgs }: pkgs.runCommand "foo" { } ''
-  touch $out
+  sleep 120
+  echo huhu > $out
 ''
