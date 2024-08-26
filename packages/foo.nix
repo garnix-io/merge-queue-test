@@ -1,3 +1,3 @@
 { pkgs }: pkgs.runCommand "foo" { } ''
-  touch $out
+  echo huhu > $out
 ''
